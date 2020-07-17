@@ -1,0 +1,33 @@
+{
+  "name": "kata-starter",
+  "version": "1.0.0",
+  "description": "Base project for coding katas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha src/*.spec.js",
+    "test-with-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/its-a-wrap/node-kata-starter.git"
+  },
+  "author": "Patrick Tweed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/its-a-wrap/node-kata-starter/issues"
+  },
+  "homepage": "https://github.com/its-a-wrap/node-kata-starter#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "mocha": "^7.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
